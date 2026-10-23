@@ -1,0 +1,304 @@
+-------------------------------------------------------------------------------
+Test set: com.examly.springapp.SpringappApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 50, Failures: 50, Errors: 0, Skipped: 0, Time elapsed: 0.111 s <<< FAILURE! - in com.examly.springapp.SpringappApplicationTests
+com.examly.springapp.SpringappApplicationTests.backend_testDefaultAdminSeedingIdempotencyAndExternalSecretConfigurationBehavior  Time elapsed: 0.035 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: configuration/DataInitializer.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testDefaultAdminSeedingIdempotencyAndExternalSecretConfigurationBehavior(SpringappApplicationTests.java:83)
+
+com.examly.springapp.SpringappApplicationTests.backend_testLeaseCreationActiveTenantAvailablePropertyAndExistingPlanBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/LeaseServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testLeaseCreationActiveTenantAvailablePropertyAndExistingPlanBehavior(SpringappApplicationTests.java:173)
+
+com.examly.springapp.SpringappApplicationTests.backend_testPropertyCrudValidationLandlordReferenceAndEnumBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: entity/Property.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testPropertyCrudValidationLandlordReferenceAndEnumBehavior(SpringappApplicationTests.java:101)
+
+com.examly.springapp.SpringappApplicationTests.backend_testPaymentRefundSuccessOnlyAndDuplicateRefundConflictBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/PaymentServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testPaymentRefundSuccessOnlyAndDuplicateRefundConflictBehavior(SpringappApplicationTests.java:281)
+
+com.examly.springapp.SpringappApplicationTests.backend_testAllModuleRestApiCrudSearchFilterAndHttpStatusContractBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: controller/UserController.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testAllModuleRestApiCrudSearchFilterAndHttpStatusContractBehavior(SpringappApplicationTests.java:335)
+
+com.examly.springapp.SpringappApplicationTests.backend_testPropertyAvailabilityTypeCityRentAndDateRangeFilteringBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: controller/PropertyController.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testPropertyAvailabilityTypeCityRentAndDateRangeFilteringBehavior(SpringappApplicationTests.java:107)
+
+com.examly.springapp.SpringappApplicationTests.backend_testRoleAuthorizationAdminStaffCustomerAndUnauthenticatedBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: security/SecurityConfig.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testRoleAuthorizationAdminStaffCustomerAndUnauthenticatedBehavior(SpringappApplicationTests.java:299)
+
+com.examly.springapp.SpringappApplicationTests.backend_testLeasePricingBaseDiscountTotalAndSecurityDepositSeparationBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/LeaseServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testLeasePricingBaseDiscountTotalAndSecurityDepositSeparationBehavior(SpringappApplicationTests.java:197)
+
+com.examly.springapp.SpringappApplicationTests.backend_testPropertyStatusTransitionsPreserveMaintenanceAndInactiveBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/LeaseServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testPropertyStatusTransitionsPreserveMaintenanceAndInactiveBehavior(SpringappApplicationTests.java:341)
+
+com.examly.springapp.SpringappApplicationTests.backend_testTenantCrudIdentityUniquenessAndCustomerOwnershipBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: entity/Tenant.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testTenantCrudIdentityUniquenessAndCustomerOwnershipBehavior(SpringappApplicationTests.java:113)
+
+com.examly.springapp.SpringappApplicationTests.backend_testMySqlPersistenceAndRestartDataIntegrityBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: entity/User.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testMySqlPersistenceAndRestartDataIntegrityBehavior(SpringappApplicationTests.java:353)
+
+com.examly.springapp.SpringappApplicationTests.backend_testRequestDtoValidationAndServerControlledFieldRejectionBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: dto/request/RegisterRequest.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testRequestDtoValidationAndServerControlledFieldRejectionBehavior(SpringappApplicationTests.java:131)
+
+com.examly.springapp.SpringappApplicationTests.backend_testGlobalValidationExceptionAndStandardErrorResponseBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: exception/GlobalExceptionHandler.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testGlobalValidationExceptionAndStandardErrorResponseBehavior(SpringappApplicationTests.java:311)
+
+com.examly.springapp.SpringappApplicationTests.backend_testLeaseCompletionActualEndDateLateFeeAndPropertyAvailabilityBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/LeaseServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testLeaseCompletionActualEndDateLateFeeAndPropertyAvailabilityBehavior(SpringappApplicationTests.java:215)
+
+com.examly.springapp.SpringappApplicationTests.backend_testJwtInvalidExpiredTamperedAndDeactivatedAccountRejectionBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: security/JwtService.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testJwtInvalidExpiredTamperedAndDeactivatedAccountRejectionBehavior(SpringappApplicationTests.java:305)
+
+com.examly.springapp.SpringappApplicationTests.backend_testCompleteAuthenticationLeasePaymentAndDatabaseIntegrationBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: controller/AuthController.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testCompleteAuthenticationLeasePaymentAndDatabaseIntegrationBehavior(SpringappApplicationTests.java:365)
+
+com.examly.springapp.SpringappApplicationTests.backend_testLeaseCancellationRulesAndNoAutomaticRefundBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/LeaseServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testLeaseCancellationRulesAndNoAutomaticRefundBehavior(SpringappApplicationTests.java:227)
+
+com.examly.springapp.SpringappApplicationTests.backend_testLeaseOverdueScheduledDetectionAndReadTimeEvaluationBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/LeaseServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testLeaseOverdueScheduledDetectionAndReadTimeEvaluationBehavior(SpringappApplicationTests.java:233)
+
+com.examly.springapp.SpringappApplicationTests.backend_testSecurityErrorResponsesWithoutStackTraceOrSensitiveDetailsBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: security/SecurityConfig.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testSecurityErrorResponsesWithoutStackTraceOrSensitiveDetailsBehavior(SpringappApplicationTests.java:317)
+
+com.examly.springapp.SpringappApplicationTests.backend_testLeaseExpectedEndDateDerivationAndMismatchRejectionBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/LeaseServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testLeaseExpectedEndDateDerivationAndMismatchRejectionBehavior(SpringappApplicationTests.java:179)
+
+com.examly.springapp.SpringappApplicationTests.backend_testPaymentOutstandingBalanceAndSuccessfulPaymentAggregationBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/PaymentServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testPaymentOutstandingBalanceAndSuccessfulPaymentAggregationBehavior(SpringappApplicationTests.java:263)
+
+com.examly.springapp.SpringappApplicationTests.backend_testPaymentProcessingSuccessFailureAndUniqueReferenceBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/PaymentServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testPaymentProcessingSuccessFailureAndUniqueReferenceBehavior(SpringappApplicationTests.java:269)
+
+com.examly.springapp.SpringappApplicationTests.backend_testReservedLeaseUpdateAndNonReservedUpdateRejectionBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/LeaseServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testReservedLeaseUpdateAndNonReservedUpdateRejectionBehavior(SpringappApplicationTests.java:245)
+
+com.examly.springapp.SpringappApplicationTests.backend_testLeasePlanCrudUniqueNameDurationDiscountAndReferencedDeleteBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: entity/LeasePlan.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testLeasePlanCrudUniqueNameDurationDiscountAndReferencedDeleteBehavior(SpringappApplicationTests.java:125)
+
+com.examly.springapp.SpringappApplicationTests.backend_testLeasePaymentAmountPaidBalanceAndRefundConsistencyBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/LeaseServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testLeasePaymentAmountPaidBalanceAndRefundConsistencyBehavior(SpringappApplicationTests.java:347)
+
+com.examly.springapp.SpringappApplicationTests.backend_testLeaseLateFeeConfigurationAndAccrualPersistenceBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/LeaseServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testLeaseLateFeeConfigurationAndAccrualPersistenceBehavior(SpringappApplicationTests.java:239)
+
+com.examly.springapp.SpringappApplicationTests.backend_testSwaggerOpenApiJwtSecurityRolesAndDtoDocumentationBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: configuration/OpenApiConfig.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testSwaggerOpenApiJwtSecurityRolesAndDtoDocumentationBehavior(SpringappApplicationTests.java:329)
+
+com.examly.springapp.SpringappApplicationTests.backend_testControllerServiceRepositoryLayerSeparationBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: controller/AuthController.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testControllerServiceRepositoryLayerSeparationBehavior(SpringappApplicationTests.java:149)
+
+com.examly.springapp.SpringappApplicationTests.backend_testServiceInterfaceImplementationAndControllerServiceDelegationBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/AuthService.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testServiceInterfaceImplementationAndControllerServiceDelegationBehavior(SpringappApplicationTests.java:359)
+
+com.examly.springapp.SpringappApplicationTests.backend_testProtectedEntityDeletionConflictForPropertyLandlordTenantAndPlanBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/PropertyServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testProtectedEntityDeletionConflictForPropertyLandlordTenantAndPlanBehavior(SpringappApplicationTests.java:251)
+
+com.examly.springapp.SpringappApplicationTests.backend_testLeaseTerminationActualEndDateFeeAndPropertyStatusBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/LeaseServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testLeaseTerminationActualEndDateFeeAndPropertyStatusBehavior(SpringappApplicationTests.java:221)
+
+com.examly.springapp.SpringappApplicationTests.backend_testPaymentCreationPendingTimestampAndAmountValidationBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/PaymentServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testPaymentCreationPendingTimestampAndAmountValidationBehavior(SpringappApplicationTests.java:257)
+
+com.examly.springapp.SpringappApplicationTests.backend_testPaginationDefaultsMaximumSizeAndMetadataBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: controller/LandlordController.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testPaginationDefaultsMaximumSizeAndMetadataBehavior(SpringappApplicationTests.java:167)
+
+com.examly.springapp.SpringappApplicationTests.backend_testLeaseActivationRechecksTenantAndPropertyAvailabilityBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/LeaseServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testLeaseActivationRechecksTenantAndPropertyAvailabilityBehavior(SpringappApplicationTests.java:203)
+
+com.examly.springapp.SpringappApplicationTests.backend_testLeaseStatusTransitionMatrixAndConflictResponseBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/LeaseServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testLeaseStatusTransitionMatrixAndConflictResponseBehavior(SpringappApplicationTests.java:209)
+
+com.examly.springapp.SpringappApplicationTests.backend_testFailedPaymentRetryAndPaidAmountExclusionBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/PaymentServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testFailedPaymentRetryAndPaidAmountExclusionBehavior(SpringappApplicationTests.java:275)
+
+com.examly.springapp.SpringappApplicationTests.backend_testPaymentClientControlledStatusDateAndReferenceRejectionBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: dto/request/PaymentRequest.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testPaymentClientControlledStatusDateAndReferenceRejectionBehavior(SpringappApplicationTests.java:287)
+
+com.examly.springapp.SpringappApplicationTests.backend_testCorsConfigurableOriginMethodsAndAllowedHeadersBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: configuration/CorsConfig.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testCorsConfigurableOriginMethodsAndAllowedHeadersBehavior(SpringappApplicationTests.java:323)
+
+com.examly.springapp.SpringappApplicationTests.backend_testResponseDtoSensitiveFieldExclusionAndNestedSummaryBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: dto/response/UserResponse.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testResponseDtoSensitiveFieldExclusionAndNestedSummaryBehavior(SpringappApplicationTests.java:137)
+
+com.examly.springapp.SpringappApplicationTests.backend_testCustomerLeaseAndPaymentOwnershipListAndDetailAuthorizationBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/LeaseServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testCustomerLeaseAndPaymentOwnershipListAndDetailAuthorizationBehavior(SpringappApplicationTests.java:293)
+
+com.examly.springapp.SpringappApplicationTests.backend_testLazyManyToOneRelationshipsAndNoCircularSerializationBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: entity/Property.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testLazyManyToOneRelationshipsAndNoCircularSerializationBehavior(SpringappApplicationTests.java:155)
+
+com.examly.springapp.SpringappApplicationTests.backend_testConcurrentLeaseCreationPropertyLockAndTransactionBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/LeaseServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testConcurrentLeaseCreationPropertyLockAndTransactionBehavior(SpringappApplicationTests.java:191)
+
+com.examly.springapp.SpringappApplicationTests.backend_testUserManagementAdminOnlyRoleAndStatusChangeBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: controller/UserController.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testUserManagementAdminOnlyRoleAndStatusChangeBehavior(SpringappApplicationTests.java:89)
+
+com.examly.springapp.SpringappApplicationTests.backend_testLoginJwtClaimsExpiryInactiveUserAndGenericFailureBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/AuthServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testLoginJwtClaimsExpiryInactiveUserAndGenericFailureBehavior(SpringappApplicationTests.java:77)
+
+com.examly.springapp.SpringappApplicationTests.backend_testLeaseOverlapPreventionReservedActiveAndOverdueBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/LeaseServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testLeaseOverlapPreventionReservedActiveAndOverdueBehavior(SpringappApplicationTests.java:185)
+
+com.examly.springapp.SpringappApplicationTests.backend_testRepositorySearchFilterPaginationSortingAllowListBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: repository/UserRepository.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testRepositorySearchFilterPaginationSortingAllowListBehavior(SpringappApplicationTests.java:161)
+
+com.examly.springapp.SpringappApplicationTests.backend_testMapperRoundTripRelatedSummaryAndSensitiveFieldExclusionBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: mapper/UserMapper.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testMapperRoundTripRelatedSummaryAndSensitiveFieldExclusionBehavior(SpringappApplicationTests.java:143)
+
+com.examly.springapp.SpringappApplicationTests.backend_testUserRegistrationBcryptCustomerRoleAndDuplicateEmailBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/AuthServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testUserRegistrationBcryptCustomerRoleAndDuplicateEmailBehavior(SpringappApplicationTests.java:71)
+
+com.examly.springapp.SpringappApplicationTests.backend_testTenantStatusRestrictionsAndAuthenticatedUserLinkBehavior  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: service/impl/TenantServiceImpl.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testTenantStatusRestrictionsAndAuthenticatedUserLinkBehavior(SpringappApplicationTests.java:119)
+
+com.examly.springapp.SpringappApplicationTests.backend_testLandlordCrudValidationUniqueEmailAndReferencedDeleteBehavior  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required implementation file missing: controller/LandlordController.java ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.readCode(SpringappApplicationTests.java:20)
+	at com.examly.springapp.SpringappApplicationTests.readAll(SpringappApplicationTests.java:38)
+	at com.examly.springapp.SpringappApplicationTests.backend_testLandlordCrudValidationUniqueEmailAndReferencedDeleteBehavior(SpringappApplicationTests.java:95)
+
